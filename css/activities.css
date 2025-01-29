@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Modak', serif;
+    background-color: #f7e8d8;
+    color:#f8cfd7;
+}
+
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+}
+.activity-selection{
+    display: table;
+    width: 100%;
+    text-align: left;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-size:25px;
+}
+#activitiesquestion {
+    font-size:35px;
+    margin-bottom: 30px;
+}
+.activity-item{
+    display:table-row;
+    padding: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+    margin: 12px;
+}
+
+.activity-item > .image-cell,
+.activity-item > .text-cell {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+}
+.activity-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ffffff; /* Circle's fill color */
+    box-shadow: 0 0 0 5px #a32f55;
+    margin: 12px;
+}
+.activity-item label {
+    margin-left:20px;
+    display: block;
+    word-wrap: break-word
+}
+.button{
+    padding:10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    margin:10px;
+    font-family:"Modak", serif;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    color: #f8cfd7;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+    border-radius: 12px;
+    border: 2px solid #f7719d;
+    box-shadow: 1px 1px 2px #ff9494;
+    transition: 0.3s;
+}
+.button:Hover{
+    background-color:#f56997 ;
+    color:white;
+    border:2px solid #fa236a;
+    box-shadow: 1px 1px 2px #fa236a;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #a32f55;
+}

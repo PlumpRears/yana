@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>I have a question...</title>
+        <link rel="icon" type="image/gif" href="images/rolling kitty.gif">
+        <link rel="stylesheet" href="css/valentine.css">
+        <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="valentineQuestion"><b>Will you be my valentine?</b></h1>
+        <button class="answerButton" onclick="location.href='awhellyeah.html'">
+            Yes
+        </button>
+        <button class="answerButton" id="noButton">No</button>
+
+        <img id="kiss" src="images/kiss.gif" alt="smooch?" class="responsive">
+        <br>
+        <audio autoplay loop>
+            <source src="audios/lips by the polarity.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+f
+        <script>
+            document
+            .getElementById("noButton")
+            .addEventListener("click", function () {
+                if(this.innerText==="No") {
+                    this.innerText ="PLEASE";
+                } else {
+                    this.innerText = "PLEASE";
+                    this.innerText = "I WILL KILL MYSELF";
+
+                }
+                var yesButton = document.querySelector(
+                'button[onclick*="awhellyeah.html"]'
+                );
+                var currentFontSize = parseInt(
+                    window.getComputedStyle(yesButton).fontSize
+                );
+                yesButton.style.fontSize = currentFontSize + 10 + "px" // Increases fontsize by 5px
+
+                    // I highly doubt you'll see this, and I guess this is my way of telling you (without directly saying it to your face, not yet at least) that I really, really like you, Yana. I can't stop thinking about you.
+                    // I miss you a lot. I always do, I often find myself haphazardly patting and searching the spot next to me for your presence despite being miles away.
+                    // I'm not worried about you not feeling the same way as I do though. I guess. Maybe I am, but I won't force you to like me back.
+            
+
+                
+            });
+        </script>
+    </body>
+</html>

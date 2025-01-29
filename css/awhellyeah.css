@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+
+
+body{
+    text-align: center;
+    margin-top: 30px;
+    font-family:"Modak", serif;
+    background-color: #f7e8d8;
+    color: #f8cfd7;
+}
+
+h1,h2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+}
+
+#awhellyeah {
+    font-size:100px;
+    margin-bottom: 20px;
+}
+
+.yipeekitty {
+    margin-bottom: 10px;
+}
+.button {
+    padding:10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    margin:10px;
+    font-family:"Modak", serif;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    color: #f8cfd7;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+    border-radius: 12px;
+    border: 2px solid #f7719d;
+    box-shadow: 1px 1px 2px #ff9494;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color:#f56997 ;
+    color:white;
+    border:2px solid #fa236a;
+    box-shadow: 1px 1px 2px #fa236a;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #a32f55;
+}

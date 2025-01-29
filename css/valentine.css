@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin:0;
+    margin-top: 30px;
+    font-family:"Modak", serif;
+    background-color: #f7e8d8;
+    color: #f8cfd7;
+}
+
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+}
+
+
+img{
+    height:400px;
+    width: auto;
+    padding: 10px;
+}
+
+#valentineQuestion {
+    font-size: 50px;
+    margin-bottom:10px
+}
+
+.answerButton{
+    padding:10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    margin:10px;
+    font-family:"Modak", serif;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    color: #f8cfd7;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#f7719d;
+    border-radius: 12px;
+    border: 2px solid #f7719d;
+    box-shadow: 1px 1px 2px #ff9494;
+    transition: 0.3s;
+}
+
+.answerButton:hover{
+    background-color:#a0ff8f ;
+    color:whitesmoke;
+    border:2px solid #ff9494;
+    box-shadow: 1px 1px 2px #f7719d;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
